@@ -11,7 +11,7 @@ spec:
     namespace: argocd
   source:
     path   : "demo-dev/applications"
-    repoURL: "git@github.com:chak1988/argocd_1.git"
+    repoURL: "git@github.com:chak1988/argocd.git"
     targetRevision: HEAD
   project: default
   syncPolicy:
